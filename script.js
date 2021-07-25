@@ -34,7 +34,7 @@ for (let i = 0; i < Buttons.length; i++) {
             if (element.target.innerText === 'C') {
                 userInput = "";
             }
-            else if (element.target.innerText === ',') {
+            else if (element.target.innerText === '<') {
                 userInput = userInput.slice(0, -1);
             }
             else {
