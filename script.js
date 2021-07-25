@@ -27,7 +27,7 @@ for (let i = 0; i < Buttons.length; i++) {
         if (randomNumber.length == 0) {
             alert("Generate a Number First");
         }
-        else if (userInput.length == 4 && !(element.target.innerText === 'C' || element.target.innerText === ',')) {
+        else if (userInput.length == 4 && !(element.target.innerText === 'C' || element.target.innerText === '<')) {
             alert("You can only give 4 inputs");
         }
         else {
